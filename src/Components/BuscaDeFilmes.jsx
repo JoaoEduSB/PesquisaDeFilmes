@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./BuscaDeFilmes.css"
 
 function BuscaDeFilmes() {
   // Estados para armazenar a consulta, os filmes encontrados, mensagens de erro
@@ -44,8 +45,8 @@ function BuscaDeFilmes() {
 
   // renderiza o componente de busca de filmes
   return (
-    <div>
-      <h2>Busca de Filmes</h2>
+    <div className="container">
+      <h2 className="card">Busca de Filmes</h2>
       {/* Formulário para permitir que o usuário digite o nome do filme a ser pesquisado */}
       <form onSubmit={handleSubmit}>
         <input
