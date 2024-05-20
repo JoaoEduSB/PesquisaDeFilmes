@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+  
+  form {
+    width: 320px;
+    height: 100%;
+  }
+  
+  .card input {
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    width: 300px;
+  }
